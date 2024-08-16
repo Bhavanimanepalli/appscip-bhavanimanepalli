@@ -1,0 +1,166 @@
+/* .hide-filters-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 90px;
+  
+    margin-top: 86px;
+  }
+  
+  .toggle-button {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filters-section {
+    margin-top: 15px;
+  }
+  
+  .filter-item {
+    margin-bottom: 10px;
+  }
+  
+  .filter-item label {
+    margin-right: 10px;
+  }
+   
+
+
+
+
+
+ 
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hide-filters-container {
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: 300px;
+      margin-top: 20px;
+      margin-left: 20px;
+      background-color: #f9f9f9;
+    }
+    
+    .toggle-button {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    .toggle-button:hover {
+      background-color: #0056b3;
+    }
+    
+    .filters-section {
+      margin-top: 15px;
+    }
+    
+    .filter-item {
+      margin-bottom: 20px;
+    }
+    
+    .filter-item label {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    
+    .filter-item select {
+      padding: 5px;
+      width: 100%;
+    }
+    
+    .filter-item p {
+      margin-top: 10px;
+    }
+    
+    /* Tablet View */
+    @media (max-width: 1024px) {
+      .hide-filters-container {
+        width: 250px;
+        margin-left: 10px;
+        padding: 15px;
+      }
+    
+      .toggle-button {
+        width: 140px;
+        font-size: 14px;
+      }
+    
+      .filter-item {
+        margin-bottom: 15px;
+      }
+    }
+    
+    /* Mobile View */
+    @media (max-width: 640px) {
+      .hide-filters-container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+      }
+    
+      .toggle-button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        text-align: center;
+      }
+    
+      .filters-section {
+        margin-top: 10px;
+      }
+    
+      .filter-item {
+        margin-bottom: 10px;
+      }
+    
+      .filter-item label {
+        margin-right: 5px;
+      }
+    
+      .filter-item select {
+        width: 100%;
+        padding: 5px;
+      }
+    
+      .filter-item p {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+    }
+    

@@ -1,0 +1,283 @@
+/* .container{
+ display: flex;
+ align-items: center; 
+ justify-content: space-between; 
+ gap: 20px;
+ margin-top: 40px;
+
+}
+.items{
+   
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: Simplon Norm;
+    
+margin-left: 200px;
+
+}
+   
+.list{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 45px;
+}
+  .list li{
+    margin-left: 100px;
+    font-family: Simplon Norm;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  
+  }
+  .head{
+   
+
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   margin-top: 70px; 
+   font-family: Simplon Norm;
+
+  
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #ddd;
+    margin-top: 10px; 
+}
+.header{       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+
+}
+.card-body img {
+  mix-blend-mode: multiply;
+} 
+
+.item{
+  margin-left: 100px;
+}
+
+.itemss{
+  margin-right: 50px;
+}
+
+
+.span-left-margin {
+  margin-left: 390px; 
+  display: block;
+  margin-top: 30px;
+ 
+}
+.span-right-margin{
+  margin-left: 390px; 
+ 
+
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.items {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.57px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-family: 'Simplon Norm';
+  margin-left: 200px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.list li {
+  margin-left: 100px;
+  font-family: 'Simplon Norm';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  font-family: 'Simplon Norm';
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.card-body img {
+  mix-blend-mode: multiply;
+}
+
+.item {
+  margin-left: 100px;
+}
+
+.itemss {
+  margin-right: 50px;
+}
+
+.span-left-margin {
+  margin-left: 390px;
+  display: block;
+  margin-top: 30px;
+}
+
+.span-right-margin {
+  margin-left: 390px;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .items {
+    font-size: 28px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .list li {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .head {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .item {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .itemss {
+    margin-right: 0;
+  }
+
+  .span-left-margin,
+  .span-right-margin {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .items {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .list li {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .head {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .item {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .itemss {
+    margin-right: 0;
+  }
+
+  .span-left-margin,
+  .span-right-margin {
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
